@@ -1,2 +1,2 @@
-# ufos
+# UFOs
 javascript, bootstrap, and UFOs
