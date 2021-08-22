@@ -24,7 +24,7 @@ function buildTable(data) {
 }
 
 // 1. Create a variable to keep track of all the filters as an object.
-let filterBuild = {}
+
 
 // 3. Use this function to update the filters. 
 function updateFilters() {
