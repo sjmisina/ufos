@@ -8,9 +8,8 @@ Technology employed:
 - tested for usability and layout on Chrome Version 92.0  
 - Data source: data.js as provided by W. Avy  
 <br>  
-***  
-
-## Project Overview
+***
+## Project Overview  
 We have created a landing page where you can dig through the data funded and provided by W. Avy. As a user you can browse the entire dataset, or filter it by Country, State, City, Date, and even the Shape of the anomoly. The results are presented with the duration of the event and even comments from the witnesses.  
 
 Are we alone? Consider these encounters ...  
