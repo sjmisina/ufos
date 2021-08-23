@@ -13,8 +13,7 @@ Technology employed:
 We have created a landing page where you can dig through the data funded and provided by W. Avy. As a user you can browse the entire dataset, or filter it by Country, State, City, Date, and even the Shape of the anomoly. The results are presented with the duration of the event and even comments from the witnesses.  
 
 Are we alone? Consider these encounters ...  
-<br>
-<br>
+<br>  
 ***
 ## Results  
 Navigation of this site is intentionally simple, so anyone can use this resource. There are five filter fields:  
@@ -25,12 +24,8 @@ Navigation of this site is intentionally simple, so anyone can use this resource
 - The database provided is for the first weeks of January 2010. Do not enter a date later than 1/13/2010 to return results.
 - The filters are looking for exact matches, e.g., capitalization or misspellings will cause compromised results.
 - The results are filtered every time the user presses <kbd>RETURN/ENTER</kbd>.
-<br>
-<br>
-  
+<br>  
 ***
-
-
 ## Summary
 This is a fantstic format to share results of the database. It is clear and easy for users to navigate. Clutter is minimized and the color palate is appropriate and easy to read.
 
