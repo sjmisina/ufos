@@ -27,9 +27,9 @@ Navigation of this site is intentionally simple, so everyone can use this page. 
 <br>  
   
 ## Summary  
-This is a fantstic format to share results of the database. It is clear and easy for users to navigate. Clutter is minimized and the color palate is appropriate and easy to read.
+This is a fantstic format to drill down into the data. It is clear and easy for users to navigate. Clutter is minimized and the color palate is appropriate and easy to read.  
   
-The main drawbacks of this resource are the dataset is such a small sample size, and it is easy to enter typos that will end up returning empty sets.
+The main drawbacks of this resource are the dataset is such a small sample size, and it is easy to enter typos that will end up returning empty sets.  
   
 For updates, upgrades, and further optimization, consider these suggestions:
 - a `clear filters` function to reset all of the filters easily
