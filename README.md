@@ -25,3 +25,5 @@ Navigation of this site is intentionally simple, so anyone can use this resource
 - The filters are looking for exact matches, e.g., capitalization or misspellings will cause compromised results.
 - The results are filtered every time the user presses <kbd>RETURN/ENTER</kbd>.
 <br>  
+
+## Summary
