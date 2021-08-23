@@ -25,7 +25,7 @@ Navigation of this site is intentionally simple, so anyone can use this resource
 - The filters are looking for exact matches, e.g., capitalization or misspellings will cause compromised results.
 - The results are filtered every time the user presses <kbd>RETURN/ENTER</kbd>.
 <br>  
-## Summary
+## Summary  
 This is a fantstic format to share results of the database. It is clear and easy for users to navigate. Clutter is minimized and the color palate is appropriate and easy to read.
   
 The main drawbacks of this resource is that the dataset is such a small sample size, and it is easy to enter typos that will end up returning empty sets.
