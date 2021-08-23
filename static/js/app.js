@@ -52,51 +52,46 @@ function updateFilters() {
         delete filters[filterId];
     }
     // 6. Call function to apply all filters and rebuild the table
+  //  console.log(filters);
     filterTable();
 };
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
+    console.log(filters);
     filteredData = tableData
-    console.log("reset table data")
-    console.log("filterTable started");
+    // console.log("reset table data")
+    // console.log("filterTable started");
 
     // 8. Set the filtered data to the tableData.
-    if (datetime) {
-        filteredData = filteredData.filter(row => row.datetime === datetime);
+    if (filters.datetime) {
+        filteredData = filteredData.filter(row => row.datetime === filters.datetime);
+      };
+
+    if (filters.city) {
+        filteredData = filteredData.filter(row => row.city === filters.city);
     };
 
-    if (city) {
-        filteredData = filteredData.filter(row => row.city === city);
-    };
-
-    if (state) {
-        filteredData = filteredData.filter(row => row.state === state);
+    if (filters.state) {
+        filteredData = filteredData.filter(row => row.state === filters.state);
     }
 
-    if (country) {
-        filteredData = filteredData.filter(row => row.country === country);
+    if (filters.country) {
+        filteredData = filteredData.filter(row => row.country === filters.country);
     }
 
-    if (shape) {
-        filteredData = filteredData.filter(row => row.shape === shape);
+    if (filters.shape) {
+        filteredData = filteredData.filter(row => row.shape === filters.shape);
     }
     
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     
-  
+    // console.log(filteredData)
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData)
   }
   
-  // 2. Attach an event to listen for changes to each filter
-window.addEventListener('keyup',function(e){
-    if (e.key === "Enter") {
-        updateTable()}
-});
+  // 2. Attach an event to listen for changes to each filter field
 
-// start filter by collecting all input on page, go to updateFilters
-function updateTable() {
-    d3.selectAll("input").on("change", updateFilters)
-};
+d3.selectAll("input").on("change", updateFilters);
