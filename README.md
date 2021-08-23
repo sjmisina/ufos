@@ -25,6 +25,7 @@ Navigation of this site is intentionally simple, so anyone can use this resource
 - The filters are looking for exact matches, e.g., capitalization or misspellings will cause compromised results.
 - The results are filtered every time the user presses <kbd>RETURN/ENTER</kbd>.
 <br>  
+  
 ## Summary  
 This is a fantstic format to share results of the database. It is clear and easy for users to navigate. Clutter is minimized and the color palate is appropriate and easy to read.
   
