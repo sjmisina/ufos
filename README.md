@@ -16,7 +16,7 @@ We have created a landing page where you can dig through the data funded and pro
 Are we alone? Consider these encounters ...  
 <br>  
 ## Results  
-Navigation of this site is intentionally simple, so anyone can use this resource. There are five filter fields:  
+Navigation of this site is intentionally simple, so everyone can use this page. There are five filter fields for the database:  
 
 ![filters screen shot](static/images/filter_screenshot.png)<br><br>
 
